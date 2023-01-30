@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+/* 
+.listContainer{
+    flex: 6;   
+} */

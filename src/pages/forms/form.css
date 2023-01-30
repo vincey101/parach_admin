@@ -1,0 +1,92 @@
+.newContainer {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    flex: 6;
+}
+
+.newTop,
+.newBottom {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    /* width: 300%; */
+    width: 50vw;
+    margin: 20px;
+    display: flex;
+}
+
+h1 {
+    color: lightgray;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.newBottom-left {
+    flex: 1;
+    text-align: center;
+}
+
+.newBottom-right {
+    flex: 2;
+}
+
+.myform {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.forminput {
+    width: 45%;
+}
+
+.forminput2 {
+    width: 45%;
+    margin-right: 220px;
+}
+
+.mylabel {
+    display: flex;
+    align-items: center;
+}
+
+.myinput {
+    width: 100%;
+    padding: 0.3125rem;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.payment {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.send {
+    width: 5rem;
+    height: 2rem;
+    /* padding: 5px; */
+    border-radius: 0.75rem;
+    border: none;
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    /* margin-left: 7.5rem; */
+
+}

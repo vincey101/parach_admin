@@ -1,0 +1,51 @@
+.datatable {
+    height: 500px;
+    width: 900px;
+    padding: 20px;
+}
+
+.fname {
+    padding: 5px;
+}
+
+.edit {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aqua;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(255, 44, 44, 0.616);
+    cursor: pointer;
+}
+
+.datatitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newuser {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: green;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newuser:visited {
+    color: green;
+}
